@@ -44,6 +44,7 @@ const Footer = () => {
                        <a href="https://github.com/sudharshansudhir"> <img className='w-6 hover:scale-104 ' src={github} alt="github" /></a>
                        <a href="www.linkedin.com/in/sudharshan-r-ssr"> <img className='w-6 hover:scale-104 ' src={linkedin} alt="linkedin" /></a>
                        <a href="https://www.instagram.com/sudhir_ssr?igsh=MTZmenhoM3Y3OWcwbg=="> <img className='w-6 hover:scale-104 ' src={instagram} alt="instagram" /></a>
+                       <a href="https://open.spotify.com/playlist/1AFPpD3KvNRcFaqkaphnIZ?si=4f2e663c54944a24"> <img className='w-6 hover:scale-104 ' src={spotify} alt="spotify" /></a>
                     </div>
                 </div>
         </div>
