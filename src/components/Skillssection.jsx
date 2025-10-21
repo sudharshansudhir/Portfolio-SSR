@@ -109,7 +109,7 @@ const Skillssection = () => {
         </p>
       </div>
         <div className='flex my-8  justify-center items-center'>
-        <div className='flex flex-wrap w-[90%] md:w-[80%] justify-center items-center gap-3 sm:gap-4 md:gap-6 bg-[#323232ff] rounded-2xl px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 border border-white'>
+        <div className='flex flex-wrap w-[90%] md:w-[80%] justify-center items-center gap-3 sm:gap-4 md:gap-6 bg-[#323232aa] rounded-2xl px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 border border-white'>
           {langs && langs.map((value, index) => {
             return <div key={index} className="relative w-60 h-60 rounded-full flex items-center justify-center">
               <div className="absolute inset-0 rounded-full" style={{background: `conic-gradient(${value.color} ${value.progress * 3.6}deg, #d9d9d9 ${value.progress * 3.6}deg)`,}}>
@@ -174,4 +174,4 @@ const Skillssection = () => {
 export default Skillssection
 
 
-// #eb6200ff 
+// #eb6200ff #323232aa
