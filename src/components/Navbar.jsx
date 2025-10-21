@@ -28,7 +28,7 @@ const Navbar = () => {
                 <GiHamburgerMenu onClick={opennavbar} className='text-3xl cursor-pointer' />
 
                 {ham&&
-                <div className='text-[10px] text-white absolute bg-[#121212] p-2 top-8 right-0 text-end'>
+                <div className='text-[10px] flex flex-col justify-center items-center text-white absolute bg-[#121212] p-2 top-8 right-0 text-end'>
                   <NavLink to="/" className={({ isActive }) => isActive ? 'nav-hover active-link' : 'nav-hover m-2'}>Home</NavLink>
                   <NavLink to="/about" className={({ isActive }) => isActive ? 'nav-hover active-link' : 'nav-hover m-2'}>About</NavLink>
                   <NavLink to="/projects" className={({ isActive }) => isActive ? 'nav-hover active-link' : 'nav-hover m-2'}>Projects</NavLink>
