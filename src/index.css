@@ -1,0 +1,37 @@
+@import "tailwindcss";
+body{
+    font-family: 'Bowlby One', cursive;
+    font-weight: 400;
+}
+
+.not{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-hover:hover{
+    color: #ff222f;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.quotes span{
+    color:#1E1E1E;
+    -webkit-text-stroke:1px #E9E3DC;
+}
+
+.quotes p{
+    font-size: 16px;
+}
+
+.nav-hover {
+  text-decoration: none;
+  color: white; /* normal color */
+  transition: all 0.3s;
+}
+
+.nav-hover.active-link {
+  /* text-decoration: underline;
+  text-decoration-color: #db0306; */
+  color: #db0306;
+  text-underline-offset: 4px; /* optional for spacing */
+}
