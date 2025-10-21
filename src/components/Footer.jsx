@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         <div className='flex flex-col m-2 md:flex-row justify-between w-[100%] items-center'>
-            <div className='text-[2px] md:text-[10px]'>
+            <div className='text-[6px] md:text-[10px]'>
                 SSR - Copyright © 2025 
             </div>
             <div className='md:px-6 hidden md:block md:py-3 px-3 py-1 mb-2 border hover:scale-104 rounded-md '>Contact</div>
