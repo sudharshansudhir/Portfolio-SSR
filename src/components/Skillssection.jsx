@@ -174,4 +174,4 @@ const Skillssection = () => {
 export default Skillssection
 
 
-// #eb6200ff #323232aa
+// #eb6200ff #32323258
