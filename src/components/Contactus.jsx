@@ -13,7 +13,7 @@ const Contactus = () => {
             
             <h1 className="text-4xl text-[#db0306]  py-4 text-center">Let’s Get In Touch.</h1>
             <p className="max-md:text-sm text-white pb-10 text-center">
-                Or just reach out manually to us at <a href="#" className="text-[#db0306] hover:underline">hello@prebuiltui.com</a>
+                Or just reach out manually to us at <a href="#" className="text-[#db0306] hover:underline">sudhir.ssr7@gmail.com</a>
             </p>
             
             <div className="max-w-96 w-full px-4">
