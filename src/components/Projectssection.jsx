@@ -36,7 +36,7 @@ const Projectssection = () => {
     const projects=[
             {
                 title:"Flixplore-AI",
-                description:"A Movie streaming website with movie filtering BOT",
+                description:"A Movie streaming website with movie filtering and sorting chatBOT.",
                 stack:"MERN STACK",
                 imageUrl:flixplore,
                 projectUrl:"https://flixplore-ai.vercel.app/",
