@@ -29,16 +29,27 @@ import letter from "../assets/imagess/leave.png"
 import notes from "../assets/imagess/note.png"
 import svc from "../assets/imagess/svc.jpg"
 import ar from "../assets/imagess/ar.jpg"
+import flixplore from "../assets/imagess/flixplore.jpg"
 
 const Projectssection = () => {
 
     const projects=[
             {
+                title:"Flixplore-AI",
+                description:"A Movie streaming website with movie filtering BOT",
+                stack:"MERN STACK",
+                imageUrl:flixplore,
+                projectUrl:"https://flixplore-ai.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/Flixplore-AI",
+                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
+
+            },
+            {
                 title:"Portfolio",
                 description:"A personal portfolio website to showcase my skills, projects, and experience as a Full Stack Developer.",
                 stack:"REACT+TAILWIND",
                 imageUrl:portfolio,
-                projectUrl:"",
+                projectUrl:"https://portfolio-ssr-five.vercel.app/",
                 githubUrl:"https://github.com/sudharshansudhir/Portfolio-SSR",
                 techs:[figma,canva,reactimg,tw,git,github]
 
