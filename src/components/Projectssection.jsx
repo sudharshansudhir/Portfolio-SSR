@@ -29,7 +29,7 @@ import letter from "../assets/imagess/leave.png"
 import notes from "../assets/imagess/note.png"
 import svc from "../assets/imagess/svc.jpg"
 import ar from "../assets/imagess/ar.jpg"
-import flixplore from "../assets/imagess/flixplore.jpg"
+import flixplore from "../assets/imagess/flixplore.png"
 
 const Projectssection = () => {
 

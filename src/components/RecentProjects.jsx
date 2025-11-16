@@ -21,7 +21,7 @@ import mysql from "../assets/imagess/mysql-logo.svg"
 import git from "../assets/imagess/git.svg"
 import github from "../assets/imagess/github.svg"
 import { Link } from 'react-router-dom'
-import flixplore from "../assets/imagess/flixplore.jpg"
+import flixplore from "../assets/imagess/flixplore.png"
 
 const RecentProjects = () => {
 
