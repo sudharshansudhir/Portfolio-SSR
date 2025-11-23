@@ -47,7 +47,7 @@ const Projectssection = () => {
             },
             {
                 title:"LocoPilot Alert System",
-                description:"A Realtime Train Locopilot alert system",
+                description:"A Realtime Train Locopilot alert system for respective locopilots using Rule based algorithm in Python.",
                 stack:"MERN STACK+Python",
                 imageUrl:locopilot,
                 projectUrl:"",
