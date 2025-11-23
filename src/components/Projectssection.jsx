@@ -30,6 +30,7 @@ import notes from "../assets/imagess/note.png"
 import svc from "../assets/imagess/svc.jpg"
 import ar from "../assets/imagess/ar.jpg"
 import flixplore from "../assets/imagess/flixplore.png"
+import locopilot from "../assets/imagess/locopilot.png"
 
 const Projectssection = () => {
 
@@ -42,6 +43,16 @@ const Projectssection = () => {
                 projectUrl:"https://flixplore-ai.vercel.app/",
                 githubUrl:"https://github.com/sudharshansudhir/Flixplore-AI",
                 techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
+
+            },
+            {
+                title:"LocoPilot Alert System",
+                description:"A Realtime Train Locopilot alert system",
+                stack:"MERN STACK+Python",
+                imageUrl:locopilot,
+                projectUrl:"",
+                githubUrl:"https://github.com/sudharshansudhir/Locopilot-Alert-System-using-MERN-Python",
+                techs:[figma,canva,reactimg,node,express,mongodb,py,git,github]
 
             },
             {
