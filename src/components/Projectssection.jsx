@@ -34,6 +34,7 @@ import locopilot from "../assets/imagess/locopilot.png"
 import gemini from "../assets/imagess/gemini.png"
 import railway from "../assets/imagess/railway.png"
 import geocart from "../assets/imagess/geocart.png"
+import inceptron from "../assets/imagess/inceptron.png"
 
 const Projectssection = () => {
 
