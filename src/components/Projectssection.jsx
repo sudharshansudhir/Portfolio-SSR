@@ -31,10 +31,53 @@ import svc from "../assets/imagess/svc.jpg"
 import ar from "../assets/imagess/ar.jpg"
 import flixplore from "../assets/imagess/flixplore.png"
 import locopilot from "../assets/imagess/locopilot.png"
+import gemini from "../assets/imagess/gemini.png"
+import railway from "../assets/imagess/railway.png"
+import geocart from "../assets/imagess/geocart.png"
 
 const Projectssection = () => {
 
     const projects=[
+        {
+                title:"GeoCart",
+                description:"A complete E-commerce grocery management system with integrating Gemini AI for personalized chatBot",
+                stack:"MERN STACK+Gemini AI",
+                imageUrl:geocart,
+                projectUrl:"https://geo-cart.vercel.app",
+                githubUrl:"https://github.com/sudharshansudhir/GeoCart",
+                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,gemini,github]
+
+            },
+            {
+                title:"Railway-department",
+                description:"Project done for Railway department and It is being used currently",
+                stack:"MERN STACK",
+                imageUrl:railway,
+                // projectUrl:"https://flixplore-ai.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/Railway-department",
+                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
+
+            },
+        {
+                title:"Inceptron-AI",
+                description:"A personalized Ai chatbot for class students with subject wise.",
+                stack:"MERN STACK",
+                imageUrl:inceptron,
+                // projectUrl:"https://flixplore-ai.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/Inceptron-AI",
+                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
+
+            },
+            
+            {
+                title:"ShoeCart",
+                description:"A Online shoe booking platform that user can search and buy their favorites.",
+                stack:"MERN+TAILWIND",
+                imageUrl:shoecart,
+                // projectUrl:"https://shoe-cart-frontend-one.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/ShoeCart",
+                techs:[reactimg,node,express,mongodb,tw,git,github]
+            },
             {
                 title:"Flixplore-AI",
                 description:"A Movie streaming website with movie filtering and sorting Bot named 'DUDE'.",
@@ -82,15 +125,6 @@ const Projectssection = () => {
                 projectUrl:"https://tomato-mern-stack-project.vercel.app/",
                 githubUrl:"https://github.com/sudharshansudhir/Tomato-MERN-Stack-project",
                 techs:[reactimg,node,express,mongodb,css,git,github]
-            },
-            {
-                title:"ShoeCart",
-                description:"A Online shoe booking platform that user can search and buy their favorites.",
-                stack:"REACT+TAILWIND",
-                imageUrl:shoecart,
-                projectUrl:"https://shoe-cart-frontend-one.vercel.app/",
-                githubUrl:"https://github.com/sudharshansudhir/ShoeCart-frontend",
-                techs:[reactimg,tw,git,github]
             },
             {
                 title:"ToDo-Website",
