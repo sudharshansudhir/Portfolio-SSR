@@ -19,7 +19,7 @@ import canva from "../assets/imagess/canva-color.svg"
 import sql from "../assets/imagess/mysql-logo.svg"
 import git from "../assets/imagess/git.svg"
 import github from "../assets/imagess/github.svg"
-import resume from "../assets/imagess/R_Sudharshan_MERN_Stack_Developer.pdf"
+// import resume from "../assets/imagess/R_Sudharshan_MERN_Stack_Developer.pdf"
 
 const Aboutsection = () => {
 
@@ -104,7 +104,7 @@ const Aboutsection = () => {
         <div className='w-full not md:w-[60%] rounded-2xl border border-white bg-[#2e2d2dc6] backdrop-blur-sm p-3 sm:p-4 text-white text-[14px] sm:text-[17px] md:text-[18px]'>
           Through my work, I strive to build efficient, engaging, and user-friendly web applications that make a meaningful impact. I ensure every project I create balances functionality with modern design and smooth user experience. Whether you’re looking for a passionate full stack developer or a reliable team collaborator, I’m ready to turn your ideas into powerful digital realities. Let’s connect and create something innovative together!
         </div>
-        <a href={resume} download={true} className='w-full md:w-[40%] h-16 sm:h-24 md:h-40 bg-[#db0306] text-black rounded-2xl hover:bg-[#f8273cff] text-lg sm:text-xl md:text-2xl flex justify-center items-center p-3'>
+        <a href="https://drive.google.com/file/d/1vFgPOQEw7UPveZiXzfA1tKPbmTLgk7HN/view?usp=drive_link" download={true} className='w-full md:w-[40%] h-16 sm:h-24 md:h-40 bg-[#db0306] text-black rounded-2xl hover:bg-[#f8273cff] text-lg sm:text-xl md:text-2xl flex justify-center items-center p-3'>
           My Resume⬇️
         </a>
       </div>
