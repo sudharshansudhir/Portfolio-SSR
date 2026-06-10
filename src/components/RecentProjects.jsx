@@ -22,45 +22,66 @@ import git from "../assets/imagess/git.svg"
 import github from "../assets/imagess/github.svg"
 import { Link } from 'react-router-dom'
 import flixplore from "../assets/imagess/flixplore.png"
+import railway from "../assets/imagess/Railways.png"
+import geocart from "../assets/imagess/geocart.png"
+import upskills from "../assets/imagess/upskills.png"
+import shoecart from "../assets/imagess/shoecart.png"
+import linkopilot from "../assets/imagess/linkopilot.png"
 
 const RecentProjects = () => {
 
     const projects=[
                  {
-                      title:"Flixplore-AI",
-                      description:"A Movie streaming website with movie filtering and sorting Bot named 'DUDE'.",
-                      stack:"MERN STACK",
-                      imageUrl:flixplore,
-                      projectUrl:"https://flixplore-ai.vercel.app/",
-                      githubUrl:"https://github.com/sudharshansudhir/Flixplore-AI",
-                      techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
-      
-                  },
-                {
-                    title:"Portfolio",
-                    description:"A personal portfolio website to showcase my skills, projects, and experience as a Full Stack Developer.",
-                    stack:"REACT+TAILWIND",
-                    imageUrl:portfolio,
-                    projectUrl:"",
-                    techs:[figma,canva,reactimg,tw,git,github]
-    
-                },
-                {
-                    title:"UPSkills",
-                    description:"A online platform with courses and resources to help individuals enhance their skills and advance their careers.",
-                    stack:"MERN STACK",            
-                    imageUrl:upskills,
-                    projectUrl:"",
-                    techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
-                },
-                {
-                    title:"Tomato",
-                    description:"A Online food booking platform that allows users to order various cuisines and have them delivered to their doorstep.",
-                    stack:"REACT+TAILWIND",
-                    imageUrl:tomato,
-                    projectUrl:"",
-                    techs:[reactimg,node,express,mongodb,css,git,github]
-                },
+                title:"Railway-department",
+                description:"Project done for Railway department and It is being used currently",
+                stack:"MERN STACK",
+                imageUrl:railway,
+                // projectUrl:"https://flixplore-ai.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/Railway-department",
+                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
+
+            },        
+        {
+                title:"GeoCart",
+                description:"A complete E-commerce grocery management system with integrating Gemini AI for personalized chatBot",
+                stack:"MERN STACK+Gemini AI",
+                imageUrl:geocart,
+                projectUrl:"https://geo-cart.vercel.app",
+                githubUrl:"https://github.com/sudharshansudhir/GeoCart",
+                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,gemini,github]
+
+            },
+        
+            {
+                title:"UPSkills",
+                description:"A online platform with courses and resources to help individuals enhance their skills and advance their careers.",
+                stack:"MERN STACK",            
+                imageUrl:upskills,
+                projectUrl:"https://up-skills-lms.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/UPSkills",
+                techs:[figma,canva,reactimg,node,express,mongodb,gemini,tw,git,github]
+            },
+        
+            {
+                title:"ShoeCart",
+                description:"A Online shoe booking platform that user can search and buy their favorites.",
+                stack:"MERN+TAILWIND",
+                imageUrl:shoecart,
+                // projectUrl:"https://shoe-cart-frontend-one.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/ShoeCart",
+                techs:[reactimg,node,express,mongodb,tw,git,github]
+            },
+          
+        {
+                title:"LinkOPilot",
+                description:"A URL Shortner website with personal link management system",
+                stack:"MERN STACK",
+                imageUrl:linkopilot,
+                projectUrl:"https://linkopilot.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/linkopilot",
+                techs:[reactimg,node,express,mongodb,tw,git,github]
+
+            },
             ]
 
 
