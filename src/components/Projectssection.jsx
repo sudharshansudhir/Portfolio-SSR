@@ -35,10 +35,21 @@ import gemini from "../assets/imagess/gemini.png"
 import railway from "../assets/imagess/railway.png"
 import geocart from "../assets/imagess/geocart.png"
 import inceptron from "../assets/imagess/inceptron.png"
+import linkopilot from "../assets/imagess/linkopilot.png"
 
 const Projectssection = () => {
 
     const projects=[
+          {
+                title:"Railway-department",
+                description:"Project done for Railway department and It is being used currently",
+                stack:"MERN STACK",
+                imageUrl:railway,
+                // projectUrl:"https://flixplore-ai.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/Railway-department",
+                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
+
+            },        
         {
                 title:"GeoCart",
                 description:"A complete E-commerce grocery management system with integrating Gemini AI for personalized chatBot",
@@ -49,27 +60,17 @@ const Projectssection = () => {
                 techs:[figma,canva,reactimg,node,express,mongodb,tw,git,gemini,github]
 
             },
+        
             {
-                title:"Railway-department",
-                description:"Project done for Railway department and It is being used currently",
-                stack:"MERN STACK",
-                imageUrl:railway,
-                // projectUrl:"https://flixplore-ai.vercel.app/",
-                githubUrl:"https://github.com/sudharshansudhir/Railway-department",
-                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
-
+                title:"UPSkills",
+                description:"A online platform with courses and resources to help individuals enhance their skills and advance their careers.",
+                stack:"MERN STACK",            
+                imageUrl:upskills,
+                projectUrl:"https://up-skills-lms.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/UPSkills",
+                techs:[figma,canva,reactimg,node,express,mongodb,gemini,tw,git,github]
             },
-        {
-                title:"Inceptron-AI",
-                description:"A personalized Ai chatbot for class students with subject wise.",
-                stack:"MERN STACK",
-                imageUrl:inceptron,
-                // projectUrl:"https://flixplore-ai.vercel.app/",
-                githubUrl:"https://github.com/sudharshansudhir/Inceptron-AI",
-                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
-
-            },
-            
+        
             {
                 title:"ShoeCart",
                 description:"A Online shoe booking platform that user can search and buy their favorites.",
@@ -79,6 +80,19 @@ const Projectssection = () => {
                 githubUrl:"https://github.com/sudharshansudhir/ShoeCart",
                 techs:[reactimg,node,express,mongodb,tw,git,github]
             },
+          
+        {
+                title:"LinkOPilot",
+                description:"A URL Shortner website with personal link management system",
+                stack:"MERN STACK",
+                imageUrl:linkopilot,
+                projectUrl:"https://linkopilot.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/linkopilot",
+                techs:[reactimg,node,express,mongodb,tw,git,github]
+
+            },
+
+            
             {
                 title:"Flixplore-AI",
                 description:"A Movie streaming website with movie filtering and sorting Bot named 'DUDE'.",
@@ -99,6 +113,16 @@ const Projectssection = () => {
                 techs:[figma,canva,reactimg,node,express,mongodb,py,git,github]
 
             },
+                {
+                title:"Inceptron-AI",
+                description:"A personalized Ai chatbot for class students with subject wise.",
+                stack:"MERN STACK",
+                imageUrl:inceptron,
+                // projectUrl:"https://flixplore-ai.vercel.app/",
+                githubUrl:"https://github.com/sudharshansudhir/Inceptron-AI",
+                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
+
+            },
             {
                 title:"Portfolio",
                 description:"A personal portfolio website to showcase my skills, projects, and experience as a Full Stack Developer.",
@@ -108,15 +132,6 @@ const Projectssection = () => {
                 githubUrl:"https://github.com/sudharshansudhir/Portfolio-SSR",
                 techs:[figma,canva,reactimg,tw,git,github]
 
-            },
-            {
-                title:"UPSkills",
-                description:"A online platform with courses and resources to help individuals enhance their skills and advance their careers.",
-                stack:"MERN STACK",            
-                imageUrl:upskills,
-                projectUrl:"https://up-skills-lms.vercel.app/",
-                githubUrl:"https://github.com/sudharshansudhir/UPSkills",
-                techs:[figma,canva,reactimg,node,express,mongodb,tw,git,github]
             },
             {
                 title:"Tomato",
