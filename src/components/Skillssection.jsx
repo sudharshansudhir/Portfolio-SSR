@@ -79,8 +79,8 @@ const Skillssection = () => {
       color:"#75eeeeff"
     },
     {
-      lang:"JAVA",
-      progress:80,
+      lang:"POSTMAN",
+      progress:85,
       color:"#d7600bff"
     },
     {
