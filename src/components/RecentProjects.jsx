@@ -24,7 +24,6 @@ import { Link } from 'react-router-dom'
 import flixplore from "../assets/imagess/flixplore.png"
 import railway from "../assets/imagess/Railways.png"
 import geocart from "../assets/imagess/geocart.png"
-import upskills from "../assets/imagess/upskills.png"
 import shoecart from "../assets/imagess/shoecart.png"
 import linkopilot from "../assets/imagess/linkopilot.png"
 
