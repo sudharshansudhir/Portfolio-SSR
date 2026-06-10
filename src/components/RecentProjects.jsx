@@ -26,6 +26,7 @@ import railway from "../assets/imagess/Railways.png"
 import geocart from "../assets/imagess/geocart.png"
 import shoecart from "../assets/imagess/shoecart.png"
 import linkopilot from "../assets/imagess/linkopilot.png"
+import gemini from "../assets/imagess/gemini.png"
 
 const RecentProjects = () => {
 
